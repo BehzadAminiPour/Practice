@@ -1,13 +1,10 @@
 "use client";
-// interface Props {
-//   text: string;
-// }
 
 const AddNewUser = ({ text }: { text: string }) => {
   return (
     <button
       onClick={() => console.log("Clicked")}
-      className="text-green-800 block"
+      className="bg-green-800 text-stone-50 text-sm p-1 rounded-md block "
     >
       {text}
     </button>
