@@ -4,7 +4,7 @@ const AddNewUser = ({ text }: { text: string }) => {
   return (
     <button
       onClick={() => console.log("Clicked")}
-      className="bg-green-800 text-stone-50 text-sm p-1 rounded-md block "
+      className="btn btn-secondary btn-sm my-2"
     >
       {text}
     </button>
